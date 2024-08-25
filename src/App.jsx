@@ -11,7 +11,7 @@ function App() {
 
     return (
         <div>
-            <h1>App</h1>
+            <h1>App Number 1</h1>
             <Outlet/>
             <div className="btn-container">
                 <Button title="Home" onHandleClick={onHandleClickButton} pathToGo="/" />
